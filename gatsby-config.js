@@ -81,6 +81,12 @@ module.exports = {
     // `gatsby-plugin-offline`,
   ],
   module.exports = {
-    pathPrefix: "/blog",
-  }
+    pathPrefix: "/nanyte25",
+  },
+  // in gatsby-config.js
+module.exports = {
+  plugins: [
+  `gatsby-plugin-offline`
+  ],
+}
 }
